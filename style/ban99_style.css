@@ -1,0 +1,46 @@
+.bg {
+    background: #079c81; width: 100%; height: 715.2px;
+    display: flex; flex-flow: column nowrap; justify-content: center;
+}
+.bg main {
+    background: #fdfaef; width: 1000px; margin:0 auto; height: 600px;
+    border-radius: 50px; display: flex; flex-flow: row nowrap; padding: 30px; 
+}
+.bg main div {
+    flex: 2; display: flex; flex-flow: column nowrap;
+    align-items: center; border: 5px solid #046755;
+    border-radius: 25px 0 0 25px; 
+}
+.bg main div h1 {
+    font-size: 5rem; font-weight: 700; margin: 100px 0 25px;
+}
+.bg main div h2 {
+    font-size: 4rem; font-weight: 700; margin-bottom: 60px;
+}
+.bg main div p {
+    margin: 0 50px;
+    font-size: 1.5rem; font-weight: 600; line-height: 35px;
+}
+.bg main div p em {font-size: 1.5rem; font-weight: 600;}
+.bg main form {
+    flex: 1; border-radius: 0 25px 25px 0;
+    border: 5px solid #046755; border-left: none;
+    background: #6FBBAE;
+}
+.bg main form fieldset {
+    display: flex; flex-flow: column nowrap; 
+    align-items: center; background: #F5EFE7; border-radius:0 21px 0 0; 
+    border-bottom: dashed 5px #077a65; height: 200px;
+}
+.bg main form fieldset .ban {
+    background: #F5EFE7; color: #425F57; font-size: 1.5rem; font-weight: 600; 
+    text-align: center; margin: 50px 0 30px;
+}
+.bg main form fieldset .btn {
+    font-size: 1.313rem; font-weight: 700; color: #425F57;
+    font-size: 2rem; background: #F5EFE7;
+}
+.bg main form .imgs {
+    width: 100%;
+}
+.bg main form .imgs img {margin-top: 70px; width: 100%;}

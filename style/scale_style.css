@@ -1,0 +1,29 @@
+main {
+    background: url(../img/diana-polekhina-Xg-ut7qtJiM-unsplash.jpg) center no-repeat;
+    background-size: cover; 
+    width: 1000px; border-radius: 50px; height: 700px;
+    display: flex; flex-flow: column nowrap; align-items: center;  position: relative;
+} 
+main h1 {
+    background: #22A699; text-align: center; font-size: 1.5rem; font-weight: 700;
+    color: #EEEEEE; width: 500px; border-radius: 50px 50px 50px 50px; padding: 10px;
+    position: absolute; top: 95px;
+}
+main p {
+    background: #EEEEEE; text-align: center; font-weight: 700; font-size: 1.25rem;
+    border: 5px solid #22A699; border-radius: 50px; height: 200px; width: 800px; 
+    padding-top: 50px; line-height: 30px; letter-spacing: -0.02em; margin: 130px 0 30px; 
+}
+main form {
+    background: #F2BE22; border: 5px solid #F29727; border-radius: 30px;
+    width: 500px; height: 185px; position: relative;
+}
+main form fieldset {text-align: center; display: flex; flex-flow: column nowrap; align-items: center;}
+main form fieldset .user_text {
+    background: #EEEEEE; width: 400px; border-radius: 20px;  
+    position: relative; bottom: 10px; padding: 7px 0 7px 17px; font-weight: 700;
+}
+main form fieldset .user_btn {
+    font-weight: 700;  font-size: 1rem; color: #fff; background: #22A699;
+    padding: 7px;   border-radius: 100px; margin: 20px 0; position: relative; bottom: 10px; right: 190px;
+}
